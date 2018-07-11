@@ -1,7 +1,7 @@
 #enconding utf-8
 import requests
 import json
-city_name = str(input(''))
+city_name = 'São Paulo'
 
 r = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+city_name+'&APPID=18db156f5ef1c6bdad1be1c5072fa282')
 r2 = r.json()
