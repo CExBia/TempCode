@@ -9,4 +9,4 @@ r3 = json.dumps(r2)
 temp = float(r2['main']['temp']) - 273.15
 temp_int = int(temp)
 
-print str(temp_int)+' '+'Graus Celsius'
+print(str(temp_int)+' '+'Graus Celsius')
